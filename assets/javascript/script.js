@@ -1,12 +1,12 @@
-const firebaseConfig = {
-    // apiKey: "AIzaSyDYwYYfBVHmNXtHEob-BKCVtuhba8kvpvQ",
-    // authDomain: "train-schedu-83131.firebaseapp.com",
-    // databaseURL: "https://train-schedu-83131.firebaseio.com",
-    // projectId: "train-schedu-83131",
-    // storageBucket: "https://train-schedu-83131.firebaseio.com/",
-    // messagingSenderId: "489327113631",
-    // appId: "1:489327113631:web:3663169b7fca74d4"
-};
+var firebaseConfig = {
+    apiKey: "AIzaSyBiooQMFgR5ZgVBvL6hf_gaQ2rQpw2LDZY",
+    authDomain: "choo-choo-ef900.firebaseapp.com",
+    databaseURL: "https://choo-choo-ef900.firebaseio.com",
+    projectId: "choo-choo-ef900",
+    storageBucket: "https://choo-choo-ef900.firebaseio.com/",
+    messagingSenderId: "442628561616",
+    appId: "1:442628561616:web:9bd8fc022692d35f"
+  };
 firebase.initializeApp(firebaseConfig);
 let database = firebase.database();
 
